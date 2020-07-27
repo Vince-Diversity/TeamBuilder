@@ -1,0 +1,174 @@
+Desired size of team:  6 with desired quality:  0.83
+Using environment:  [('flying', 'electric'), ('grass', 'none'), ('fire', 'none'), ('fire', 'fighting'), ('water', 'none'), ('normal', 'none'), ('dark', 'none'), ('normal', 'flying'), ('bug', 'grass'), ('electric', 'none'), ('fighting', 'none'), ('steel', 'fighting'), ('bug', 'poison'), ('poison', 'none'), ('electric', 'steel'), ('flying', 'poison'), ('flying', 'psychic'), ('rock', 'none'), ('rock', 'ground'), ('rock', 'steel'), ('ground', 'none'), ('ground', 'steel'), ('psychic', 'none'), ('ice', 'none'), ('ground', 'dark'), ('flying', 'dark'), ('bug', 'rock'), ('fighting', 'dark'), ('ground', 'dragon'), ('ghost', 'none'), ('water', 'rock'), ('flying', 'rock'), ('steel', 'none'), ('grass', 'poison'), ('bug', 'flying'), ('bug', 'fighting'), ('bug', 'none'), ('water', 'flying'), ('bug', 'steel'), ('normal', 'grass'), ('ground', 'psychic'), ('fire', 'bug'), ('bug', 'electric'), ('grass', 'steel'), ('water', 'ghost'), ('dragon', 'none'), ('fire', 'ghost'), ('flying', 'steel'), ('fire', 'ground'), ('ghost', 'flying'), ('rock', 'psychic'), ('ground', 'flying'), ('steel', 'dark'), ('rock', 'fighting'), ('grass', 'fighting'), ('water', 'ground'), ('electric', 'ground'), ('water', 'psychic'), ('water', 'ice'), ('flying', 'dragon'), ('steel', 'psychic'), ('ice', 'dark'), ('ice', 'flying'), ('ice', 'ground'), ('ghost', 'ground'), ('dragon', 'dark'), ('water', 'dark'), ('grass', 'flying'), ('poison', 'fighting'), ('rock', 'dark'), ('fire', 'dragon'), ('electric', 'dragon'), ('ice', 'dragon')]
+ VS
+ [('flying', 'electric'), ('grass', 'none'), ('fire', 'none'), ('fire', 'fighting'), ('water', 'none'), ('normal', 'none'), ('dark', 'none'), ('normal', 'flying'), ('electric', 'none'), ('fighting', 'none'), ('steel', 'fighting'), ('bug', 'poison'), ('poison', 'none'), ('flying', 'poison'), ('flying', 'psychic'), ('rock', 'none'), ('ground', 'none'), ('ground', 'steel'), ('psychic', 'none'), ('ice', 'none'), ('ground', 'dark'), ('flying', 'dark'), ('bug', 'rock'), ('ghost', 'none'), ('flying', 'rock'), ('steel', 'none'), ('grass', 'poison'), ('bug', 'none'), ('normal', 'grass'), ('ground', 'psychic'), ('bug', 'electric'), ('water', 'ghost'), ('dragon', 'none'), ('fire', 'ghost'), ('flying', 'steel'), ('ghost', 'flying'), ('rock', 'psychic'), ('ground', 'flying'), ('steel', 'dark'), ('rock', 'fighting'), ('electric', 'ground'), ('water', 'psychic'), ('water', 'ice'), ('steel', 'psychic'), ('ice', 'dark'), ('ice', 'ground'), ('ghost', 'ground'), ('dragon', 'dark'), ('rock', 'dark'), ('fire', 'dragon'), ('electric', 'dragon'), ('ice', 'dragon')]
+Using chart:
+ [[1 1 0 ... 0 0 0]
+ [0 1 0 ... 0 1 0]
+ [0 1 1 ... 1 0 1]
+ ...
+ [1 1 1 ... 0 0 0]
+ [1 1 1 ... 0 0 0]
+ [1 1 0 ... 0 0 0]]
+of size  52 x 73
+
+Checking Lead Typing ('flying', 'electric')
+
+Found party!
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+(('flying', 'electric'), ('grass', 'none'), ('ground', 'steel'), ('water', 'ghost'), ('steel', 'dark'), ('dragon', 'dark'))
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+with quality 0.8356164383561644
+
+
+Found party!
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+(('flying', 'electric'), ('ground', 'steel'), ('flying', 'dark'), ('normal', 'grass'), ('water', 'ghost'), ('steel', 'dark'))
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+with quality 0.8356164383561644
+
+
+Found party!
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+(('flying', 'electric'), ('ground', 'steel'), ('normal', 'grass'), ('water', 'ghost'), ('steel', 'dark'), ('dragon', 'dark'))
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+with quality 0.8493150684931506
+
+
+Found party!
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+(('flying', 'electric'), ('ground', 'steel'), ('water', 'ghost'), ('flying', 'steel'), ('steel', 'dark'), ('dragon', 'dark'))
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+with quality 0.8356164383561644
+
+Checking Lead Typing ('grass', 'none')
+Checking Lead Typing ('fire', 'none')
+Checking Lead Typing ('fire', 'fighting')
+Checking Lead Typing ('water', 'none')
+Checking Lead Typing ('normal', 'none')
+Checking Lead Typing ('dark', 'none')
+Checking Lead Typing ('normal', 'flying')
+Checking Lead Typing ('electric', 'none')
+Checking Lead Typing ('fighting', 'none')
+Checking Lead Typing ('steel', 'fighting')
+Checking Lead Typing ('bug', 'poison')
+
+Found party!
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+(('bug', 'poison'), ('ground', 'steel'), ('water', 'ghost'), ('flying', 'steel'), ('steel', 'dark'), ('dragon', 'dark'))
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+with quality 0.8356164383561644
+
+Checking Lead Typing ('poison', 'none')
+
+Found party!
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+(('poison', 'none'), ('ground', 'steel'), ('water', 'ghost'), ('flying', 'steel'), ('steel', 'dark'), ('dragon', 'dark'))
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+with quality 0.8356164383561644
+
+Checking Lead Typing ('flying', 'poison')
+
+Found party!
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+(('flying', 'poison'), ('ground', 'steel'), ('water', 'ghost'), ('flying', 'steel'), ('steel', 'dark'), ('dragon', 'dark'))
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+with quality 0.8356164383561644
+
+Checking Lead Typing ('flying', 'psychic')
+Checking Lead Typing ('rock', 'none')
+Checking Lead Typing ('ground', 'none')
+Checking Lead Typing ('ground', 'steel')
+
+Found party!
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+(('ground', 'steel'), ('flying', 'dark'), ('normal', 'grass'), ('water', 'ghost'), ('flying', 'steel'), ('steel', 'dark'))
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+with quality 0.8356164383561644
+
+
+Found party!
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+(('ground', 'steel'), ('flying', 'dark'), ('water', 'ghost'), ('flying', 'steel'), ('steel', 'dark'), ('dragon', 'dark'))
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+with quality 0.8493150684931506
+
+
+Found party!
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+(('ground', 'steel'), ('grass', 'poison'), ('water', 'ghost'), ('flying', 'steel'), ('steel', 'dark'), ('dragon', 'dark'))
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+with quality 0.8356164383561644
+
+
+Found party!
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+(('ground', 'steel'), ('bug', 'none'), ('water', 'ghost'), ('flying', 'steel'), ('steel', 'dark'), ('dragon', 'dark'))
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+with quality 0.8356164383561644
+
+
+Found party!
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+(('ground', 'steel'), ('bug', 'electric'), ('water', 'ghost'), ('flying', 'steel'), ('steel', 'dark'), ('dragon', 'dark'))
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+with quality 0.8356164383561644
+
+
+Found party!
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+(('ground', 'steel'), ('water', 'ghost'), ('flying', 'steel'), ('ground', 'flying'), ('steel', 'dark'), ('dragon', 'dark'))
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+with quality 0.8356164383561644
+
+
+Found party!
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+(('ground', 'steel'), ('fire', 'ghost'), ('flying', 'steel'), ('ground', 'flying'), ('steel', 'dark'), ('dragon', 'dark'))
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+with quality 0.8356164383561644
+
+Checking Lead Typing ('psychic', 'none')
+Checking Lead Typing ('ice', 'none')
+Checking Lead Typing ('ground', 'dark')
+Checking Lead Typing ('flying', 'dark')
+Checking Lead Typing ('bug', 'rock')
+Checking Lead Typing ('ghost', 'none')
+Checking Lead Typing ('flying', 'rock')
+Checking Lead Typing ('steel', 'none')
+Checking Lead Typing ('grass', 'poison')
+Checking Lead Typing ('bug', 'none')
+Checking Lead Typing ('normal', 'grass')
+Checking Lead Typing ('ground', 'psychic')
+Checking Lead Typing ('bug', 'electric')
+Checking Lead Typing ('water', 'ghost')
+Checking Lead Typing ('dragon', 'none')
+Checking Lead Typing ('fire', 'ghost')
+Checking Lead Typing ('flying', 'steel')
+Checking Lead Typing ('ghost', 'flying')
+Checking Lead Typing ('rock', 'psychic')
+Checking Lead Typing ('ground', 'flying')
+Checking Lead Typing ('steel', 'dark')
+Checking Lead Typing ('rock', 'fighting')
+Checking Lead Typing ('electric', 'ground')
+Checking Lead Typing ('water', 'psychic')
+Checking Lead Typing ('water', 'ice')
+Checking Lead Typing ('steel', 'psychic')
+Checking Lead Typing ('ice', 'dark')
+Checking Lead Typing ('ice', 'ground')
+Checking Lead Typing ('ghost', 'ground')
+
+The most resistances are found
+given a team size of:  6
+with resistances:  62
+corresponding to quality:  0.8493150684931506
+
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+(('flying', 'electric'), ('ground', 'steel'), ('normal', 'grass'), ('water', 'ghost'), ('steel', 'dark'), ('dragon', 'dark'))
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+(('ground', 'steel'), ('flying', 'dark'), ('water', 'ghost'), ('flying', 'steel'), ('steel', 'dark'), ('dragon', 'dark'))
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+
+All parties checked!

@@ -1,0 +1,10 @@
+The most resistances are found
+given a team size of:  6
+with resistances:  60
+corresponding to quality:  0.821917808219178
+
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+(('fire', 'fighting'), ('ground', 'steel'), ('normal', 'grass'), ('water', 'ghost'), ('flying', 'steel'), ('steel', 'dark'))
+-~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~-
+
+All parties checked!

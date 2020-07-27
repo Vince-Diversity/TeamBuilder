@@ -1,0 +1,118 @@
+Desired size of team:  6
+Using environment:  [('flying', 'electric'), ('fire', 'psychic'), ('grass', 'none'), ('fire', 'none'), ('fire', 'fighting'), ('water', 'none'), ('normal', 'none'), ('dark', 'none'), ('normal', 'flying'), ('bug', 'grass'), ('electric', 'none'), ('fighting', 'none'), ('steel', 'fighting'), ('bug', 'poison'), ('poison', 'none'), ('electric', 'steel'), ('flying', 'poison'), ('flying', 'psychic'), ('rock', 'none'), ('rock', 'ground'), ('rock', 'steel'), ('ground', 'none'), ('ground', 'steel'), ('psychic', 'none'), ('ice', 'none'), ('ground', 'dark'), ('flying', 'dark'), ('bug', 'rock'), ('fighting', 'dark'), ('ground', 'dragon'), ('ghost', 'none'), ('water', 'rock'), ('flying', 'rock'), ('steel', 'none'), ('grass', 'poison'), ('bug', 'flying'), ('bug', 'fighting'), ('bug', 'none'), ('water', 'flying'), ('bug', 'steel'), ('normal', 'grass'), ('ground', 'psychic'), ('fire', 'bug'), ('bug', 'electric'), ('grass', 'steel'), ('water', 'ghost'), ('dragon', 'none'), ('fire', 'ghost'), ('flying', 'steel'), ('fire', 'ground'), ('ghost', 'flying'), ('rock', 'psychic'), ('ground', 'flying'), ('steel', 'dark'), ('rock', 'fighting'), ('grass', 'fighting'), ('water', 'ground'), ('electric', 'ground'), ('water', 'psychic'), ('water', 'ice'), ('flying', 'dragon'), ('steel', 'psychic'), ('ice', 'dark'), ('ice', 'flying'), ('ice', 'ground'), ('ghost', 'ground'), ('dragon', 'dark'), ('water', 'dark'), ('grass', 'flying'), ('poison', 'fighting'), ('rock', 'dark'), ('fire', 'dragon'), ('electric', 'dragon'), ('ice', 'dragon'), ('water', 'fighting'), ('normal', 'psychic'), ('psychic', 'fighting')]
+ VS
+ [('flying', 'electric'), ('fire', 'psychic'), ('grass', 'none'), ('fire', 'none'), ('fire', 'fighting'), ('water', 'none'), ('normal', 'none'), ('dark', 'none'), ('normal', 'flying'), ('bug', 'grass'), ('electric', 'none'), ('fighting', 'none'), ('steel', 'fighting'), ('bug', 'poison'), ('poison', 'none'), ('flying', 'poison'), ('flying', 'psychic'), ('rock', 'none'), ('ground', 'none'), ('ground', 'steel'), ('psychic', 'none'), ('ice', 'none'), ('ground', 'dark'), ('flying', 'dark'), ('bug', 'rock'), ('ghost', 'none'), ('flying', 'rock'), ('steel', 'none'), ('grass', 'poison'), ('bug', 'none'), ('normal', 'grass'), ('ground', 'psychic'), ('bug', 'electric'), ('water', 'ghost'), ('dragon', 'none'), ('fire', 'ghost'), ('flying', 'steel'), ('ghost', 'flying'), ('rock', 'psychic'), ('ground', 'flying'), ('steel', 'dark'), ('rock', 'fighting'), ('electric', 'ground'), ('water', 'psychic'), ('water', 'ice'), ('steel', 'psychic'), ('ice', 'dark'), ('ice', 'ground'), ('ghost', 'ground'), ('dragon', 'dark'), ('water', 'dark'), ('rock', 'dark'), ('fire', 'dragon'), ('electric', 'dragon'), ('ice', 'dragon'), ('water', 'fighting'), ('normal', 'psychic'), ('psychic', 'fighting')]
+Using chart:
+ [[1 0 1 ... 1 0 1]
+ [0 1 1 ... 0 1 1]
+ [0 0 1 ... 1 0 0]
+ ...
+ [0 1 0 ... 1 0 0]
+ [0 1 0 ... 0 1 1]
+ [0 1 0 ... 1 1 1]]
+of size  58 x 77
+
+
+Found decent party:
+ (('flying', 'electric'), ('grass', 'none'), ('ground', 'steel'), ('water', 'ghost'), ('steel', 'dark'), ('dragon', 'dark'))
+with quality 0.8311688311688312
+
+
+Found decent party:
+ (('flying', 'electric'), ('grass', 'none'), ('ground', 'steel'), ('water', 'ghost'), ('steel', 'dark'), ('water', 'dark'))
+with quality 0.8311688311688312
+
+
+Found decent party:
+ (('flying', 'electric'), ('bug', 'grass'), ('ground', 'steel'), ('ground', 'psychic'), ('steel', 'dark'), ('water', 'dark'))
+with quality 0.8311688311688312
+
+
+Found decent party:
+ (('flying', 'electric'), ('ground', 'steel'), ('flying', 'dark'), ('normal', 'grass'), ('steel', 'dark'), ('water', 'psychic'))
+with quality 0.8311688311688312
+
+
+Found decent party:
+ (('flying', 'electric'), ('ground', 'steel'), ('flying', 'dark'), ('ground', 'psychic'), ('steel', 'dark'), ('water', 'dark'))
+with quality 0.8311688311688312
+
+
+Found decent party:
+ (('flying', 'electric'), ('ground', 'steel'), ('flying', 'dark'), ('steel', 'dark'), ('water', 'psychic'), ('water', 'fighting'))
+with quality 0.8311688311688312
+
+
+Found decent party:
+ (('flying', 'electric'), ('ground', 'steel'), ('flying', 'rock'), ('normal', 'grass'), ('steel', 'dark'), ('water', 'psychic'))
+with quality 0.8311688311688312
+
+
+Found decent party:
+ (('flying', 'electric'), ('ground', 'steel'), ('normal', 'grass'), ('ground', 'psychic'), ('steel', 'dark'), ('water', 'dark'))
+with quality 0.8311688311688312
+
+
+Found decent party:
+ (('flying', 'electric'), ('ground', 'steel'), ('normal', 'grass'), ('water', 'ghost'), ('steel', 'dark'), ('dragon', 'dark'))
+with quality 0.8441558441558441
+
+
+Found decent party:
+ (('flying', 'electric'), ('ground', 'steel'), ('normal', 'grass'), ('water', 'ghost'), ('steel', 'dark'), ('water', 'dark'))
+with quality 0.8441558441558441
+
+
+Found decent party:
+ (('flying', 'electric'), ('ground', 'steel'), ('normal', 'grass'), ('steel', 'dark'), ('water', 'psychic'), ('dragon', 'dark'))
+with quality 0.8311688311688312
+
+
+Found decent party:
+ (('flying', 'electric'), ('ground', 'steel'), ('normal', 'grass'), ('steel', 'dark'), ('water', 'psychic'), ('water', 'dark'))
+with quality 0.8311688311688312
+
+
+Found decent party:
+ (('flying', 'electric'), ('ground', 'steel'), ('normal', 'grass'), ('steel', 'dark'), ('water', 'psychic'), ('water', 'fighting'))
+with quality 0.8441558441558441
+
+
+Found decent party:
+ (('flying', 'electric'), ('ground', 'steel'), ('ground', 'psychic'), ('water', 'ghost'), ('steel', 'dark'), ('dragon', 'dark'))
+with quality 0.8311688311688312
+
+
+Found decent party:
+ (('flying', 'electric'), ('ground', 'steel'), ('ground', 'psychic'), ('water', 'ghost'), ('steel', 'dark'), ('water', 'dark'))
+with quality 0.8311688311688312
+
+
+Found decent party:
+ (('flying', 'electric'), ('ground', 'steel'), ('water', 'ghost'), ('flying', 'steel'), ('steel', 'dark'), ('dragon', 'dark'))
+with quality 0.8311688311688312
+
+
+Found decent party:
+ (('flying', 'electric'), ('ground', 'steel'), ('water', 'ghost'), ('flying', 'steel'), ('steel', 'dark'), ('water', 'dark'))
+with quality 0.8311688311688312
+
+
+Found decent party:
+ (('flying', 'electric'), ('ground', 'steel'), ('water', 'ghost'), ('steel', 'dark'), ('dragon', 'dark'), ('psychic', 'fighting'))
+with quality 0.8311688311688312
+
+
+Found decent party:
+ (('flying', 'electric'), ('ground', 'steel'), ('water', 'ghost'), ('steel', 'dark'), ('water', 'dark'), ('psychic', 'fighting'))
+with quality 0.8311688311688312
+
+
+Found decent party:
+ (('flying', 'electric'), ('normal', 'grass'), ('steel', 'dark'), ('water', 'psychic'), ('ghost', 'ground'), ('electric', 'dragon'))
+with quality 0.8311688311688312
+
+
+Found decent party:
+ (('flying', 'electric'), ('normal', 'grass'), ('steel', 'dark'), ('water', 'psychic'), ('ghost', 'ground'), ('water', 'fighting'))
+with quality 0.8311688311688312

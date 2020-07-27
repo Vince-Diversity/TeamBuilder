@@ -1,0 +1,93 @@
+
+
+def resistQuality(party, guaranteeChart):
+    resistances = party.getGuaranteedResistCount()
+    chart = guaranteeChart.getChart()
+    cols = guaranteeChart.getColTyping()
+    def counter(party,cols,chart):
+        for member in party.getParty():
+            for col in cols:
+                identifier = chart[(member, col)]
+                if guaranteeChart.isResistant(identifier):
+                    yield 1
+    comparison = sum(counter(party,cols,chart))
+    return resistances/comparison
+
+def conditionsMet(party, chart):
+    k = 0
+    attackers = chart.getColTyping()
+    totalIdentity = []
+    for colTyping in attackers:
+        for member in party.getParty():
+            totalIdentity.append(chart.makeIdentifier(colTyping, member))
+            k += 1
+    print(party.getParty(), ' gets identity ', totalIdentity)
+    identifier = max(totalIdentity)
+    if not chart.isResistant(identifier):
+        return False
+    else:
+#   party.immunityCount(countImmunities(party, chart))
+#   party.sameTypeCount(countSameTypings(party, chart))
+    return  True
+
+def countSameTypings(party, chart):
+    print('In same type counter')
+    def counter(party, chart):
+        for member in party.getParty():
+            for attacker in chart.getColTyping():
+                print('Defender: ', member, '\nAttacker: ', attacker)
+                for defendType in member:
+                    for attackType in attacker:
+                        if defendType != 'none' and defendType == attackType:
+                            print('yield')
+                            yield 1
+    print(sum(counter(party, chart)))
+    return sum(counter(party, chart))
+
+    def makeIdentifier(self, attacker, defender):
+        effect = [0]*2
+        i = 0
+        effects = [1, 1]
+        for defendType in defender:
+            if defendType != 'none':
+                for k in [0,1]:
+                    attackType = attacker[k]
+                    if attackType != 'none':
+                        keffect = effectiveness[(defendType,attackType)]
+                        effects[k] = keffect if keffect >= 0 else -1
+            effect[i] = sum(effects)
+            i += 1
+        identifier = min(effect)
+        return identifier
+
+        def makeIdentifier(self, attacker, defender):
+            print('attacker ', attacker, 'on defender',  defender)
+            effect = 0
+            if attacker[1] != 'none':
+                effects = [1, 1]
+                for attackType in attacker:
+                    k = 0
+                    for defendType in defender:
+                        keffect = effectiveness[(defendType,attackType)]
+                        effects[k] = keffect if keffect >= 0 else -1
+                        print('adds dual to effect ', effects)
+                        k += 1
+                effect = sum(effects)
+            else:
+                if defender[1] != 'none':
+                    effects = [0, 0]
+                    for defendType in defender:
+                        keffect = effectiveness[(defendType, attackType[0])]
+                        effects[k] = keffect if keffect >= 0 else -1
+                        print('adds mono to effect ', effects)
+                        k += 1
+                    effect =  sum(effects)
+                else:
+                    effect = effectiveness[(defender[0], attackType[0])]
+            identifier = effect
+            print('gives effect ', effect)
+            return identifier
+            def makeTransposeTypingChart(self, rowTypings, colTypings):
+                self.transposeTypingChart = [
+                    [self.makeIdentifier(j,i) for j in rowTypings] for i in colTypings]
+                return self.transposeTypingChart
